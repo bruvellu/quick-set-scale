@@ -41,7 +41,7 @@ Configure
 **Quick Set Scale** comes with 2 examples. Simply remove, add, or change the 
 values to fit your parameters. You can add as many setups as you may dare.
 
-Edit the list of setups on this line (`newArray` items).
+Edit the list of setups on this line (`newArray` items):
 
     Dialog.addChoice("Equipment:", newArray("Microscopio Zeiss Axioplan2", 
     "Lupa Zeiss Stemi SV11 APO"));
@@ -55,7 +55,7 @@ Input your magnifications and pixel/unit ratios using the template:
         setScale("Zeiss Axioplan2", magnifications, scales);
         }
 
-3. Ready!
+Ready!
 
 Usage
 -----
