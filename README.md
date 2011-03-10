@@ -17,14 +17,14 @@ with a different setup **will** give you the wrong measurements.
 The ratio is shown whenever you run `Analyze` > `Set Scale...`. Take note of it 
 for each magnification you want quick access to and you are ready to go. For example:
 
-    Zeiss Axioplan2 with attached Nikon Coolpix at max zoom
+*Zeiss Axioplan2 with attached Nikon Coolpix at max zoom*
 
-    **Objective**       **pixel/µm**
-    2.5x            2.0450
-    10x             0.5277
-    20x             0.2571
-    40x             0.1333
-    100x            0.0525
+**Objective**       **pixel/µm**
+2.5x            2.0450
+10x             0.5277
+20x             0.2571
+40x             0.1333
+100x            0.0525
 
 If you do not know how to calibrate the scale in ImageJ there are plenty of 
 tutorials out there (a [good 
@@ -48,13 +48,13 @@ values to fit your parameters. You can add as many setups as you may dare.
 
 2. Input your magnifications and pixel/unit ratios using the template:
 
-     // Options for Axioplan2
-     if (equip=="Microscopio Zeiss Axioplan2") {
+    // Options for Axioplan2
+    if (equip=="Microscopio Zeiss Axioplan2") {
         // Write the magnifications available for your equipment
         magnifications = newArray("2.5x", "10x", "20x", "40x", "100x");
         scales = newArray("2.0450",  "0.5277", "0.2571", "0.1333", "0.05255");
         setScale("Zeiss Axioplan2", magnifications, scales);
-     }
+        }
 
 3. Ready!
 
@@ -66,7 +66,9 @@ Usage
    [toolbar](http://rsb.info.nih.gov/ij/docs/tools.html) and select `Quick Set 
    Scale`.
 
----
+History
+-------
 
 Originally published at 
-[organelas.com](http://organelas.com/2007/12/26/quicksetscale/)
+[organelas.com](http://organelas.com/2007/12/26/quicksetscale/) (in 
+Portuguese).
